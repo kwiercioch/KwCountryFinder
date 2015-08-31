@@ -1,0 +1,29 @@
+{
+    "name": "kwiercioch/KwCountryFinder",
+    "description": "",
+    "require": {
+        "ext-pdo": "*",
+        "ext-sqlite3": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "license": "BSD 2-Clause",
+    "authors": [
+        {
+            "name": "Krzysztof Wiercioch",
+            "email": "kwiercioch@cleeng.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "KwCountryFinder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KwCountryFinder\\Test\\": "test"
+        }
+    }
+}
